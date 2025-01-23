@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item-flex {
+  display: flex;
+  align-items: flex-end;
+}
+
+.outer {
+  width: 350px;
+  height: 70vh;
+  background-color: #4a4a4a;
+  justify-content: flex-end;
+}
+
+.inner-one {
+  width: 250px;
+  height: 300px;
+  background-color: black;
+  position: relative;
+  left: 30%;
+  justify-content: flex-start;
+}
+
+.inner-two {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(186, 184, 184);
+  position: relative;
+  right: 30%;
+  top: 30%;
+}

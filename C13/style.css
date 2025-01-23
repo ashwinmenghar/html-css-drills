@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.black {
+  background-color: black;
+}
+.gray {
+  background-color: #4a4a4a;
+}
+
+.outer {
+  width: 150px;
+  height: 150px;
+}
+
+.inner {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}

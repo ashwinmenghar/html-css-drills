@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  width: 60%;
+  height: 800px;
+}
+.container {
+  flex-direction: column;
+}
+
+.large-box {
+  width: 400px;
+  height: 450px;
+  background-color: black;
+}
+.small-box {
+  width: 200px;
+  height: 200px;
+  background-color: #4a4a4a;
+}
+.self-align {
+  align-self: flex-end;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item-flex {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.outer {
+  width: 350px;
+  height: 70vh;
+  background-color: #4a4a4a;
+}
+
+.inner-one {
+  width: 250px;
+  height: 350px;
+  background-color: black;
+}
+
+.inner-two {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: rgb(186, 184, 184);
+}
